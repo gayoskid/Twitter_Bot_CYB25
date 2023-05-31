@@ -1,0 +1,10 @@
+The project uses Beautifulsoup4 and request packages to scrape contents from https://thehackernews.com and store the content in a variable called scraped_content. you can check the scrape_posts.py file for the codes
+The schedule_tweet.py schedule our scraped post to be posted on twitter
+the gui.py file handles a graphic user interface to post tweet from our terminal
+twitter_api.py file is responsible for twitter api authentication
+credentials.py stores our API credentials, you can use your personal twitter API or use the default one for the project
+main.py is the central file that connects all the files and script
+
+
+# Challange
+the scraped content is not posted on twitter account as scheduled and the gui image is not display despite it's inclusion
